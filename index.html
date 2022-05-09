@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cluedo Game</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="logo"></div>
+    <section id="flex">
+      <article class="imgGrid">
+        <img
+          class="imgGallery"
+          id="Mustard"
+          src="assets/img/mrmustard.jpg"
+          alt=""
+        />
+        <img
+          class="imgGallery"
+          id="Scarlet"
+          src="assets/img/missScarlet.jpg"
+          alt=""
+        />
+        <img
+          class="imgGallery"
+          id="Peacock"
+          src="assets/img/mrsPeacock.jpg"
+          alt=""
+        />
+        <img
+          class="imgGallery"
+          id="Green"
+          src="assets/img/mrGreen.jpeg"
+          alt=""
+        />
+        <img
+          class="imgGallery"
+          id="Orchid"
+          src="assets/img/drOrchild.jpg"
+          alt=""
+        />
+        <img
+          class="imgGallery"
+          id="Plum"
+          src="assets/img/profPlum.jpg"
+          alt=""
+        />
+      </article>
+
+      <article id="resultBox">
+        <div>
+          <h1>Who's the murderer?</h1>
+          <p id="result"></p>
+          <img id="killerImg" src="assets/img/killer.png" alt="" />
+        </div>
+
+        <div>
+          <button onclick="pickMystery()">Can you guess?</button>
+        </div>
+      </article>
+    </section>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
